@@ -1,4 +1,7 @@
 import pandas as pd
+import os
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
+
 import tensorflow as tf
 import utils as u
 from tensorflow.keras.preprocessing.text import Tokenizer
